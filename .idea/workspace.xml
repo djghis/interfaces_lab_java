@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ac6a7d2-0b5d-4c0e-8719-876687f10278" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/RecordSpeed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Stereo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StereoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CdPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CdPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IPlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IPlay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Radio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RecordDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RecordDeck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RecordDeckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RecordDeckTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Radio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Radio.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,7 +49,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.RecordDeckTest">
+  <component name="RunManager" selected="JUnit.StereoTest.volumeCanDecrease">
     <configuration name="RadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interfaces_lab" />
       <option name="PACKAGE_NAME" value="" />
@@ -73,8 +68,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StereoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interfaces_lab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StereoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StereoTest.volumeCanDecrease" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interfaces_lab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StereoTest" />
+      <option name="METHOD_NAME" value="volumeCanDecrease" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StereoTest.volumeCanIncrease" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interfaces_lab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StereoTest" />
+      <option name="METHOD_NAME" value="volumeCanIncrease" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StereoTest.volumeCanDecrease" />
+        <item itemvalue="JUnit.StereoTest.volumeCanIncrease" />
+        <item itemvalue="JUnit.StereoTest" />
         <item itemvalue="JUnit.RecordDeckTest" />
         <item itemvalue="JUnit.RadioTest" />
       </list>
@@ -97,26 +124,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="453" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1585658796546">
+    <state x="453" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1585659193012">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="453" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1585658796546" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1585658502848">
+    <state x="453" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1585659193012" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1585659971279">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585658502848" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1585658502844">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585659971279" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1585659971276">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1585658502844" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1585658502842">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1585659971276" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1585659971275">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1585658502842" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1585658502846">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1585659971275" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1585659971277">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1585658502846" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1585659971277" />
     <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1585652790970">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

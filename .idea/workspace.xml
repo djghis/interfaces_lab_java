@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ac6a7d2-0b5d-4c0e-8719-876687f10278" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CdPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Components.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IPlay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RecordDeck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CdPlayerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RecordDeckTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RecordSpeed.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CdPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CdPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IPlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IPlay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Radio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RadioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RecordDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RecordDeck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RecordDeckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RecordDeckTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Radio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Radio.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +24,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -56,7 +54,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.RecordDeckTest">
     <configuration name="RadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interfaces_lab" />
       <option name="PACKAGE_NAME" value="" />
@@ -66,8 +64,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RecordDeckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interfaces_lab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RecordDeckTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RecordDeckTest" />
         <item itemvalue="JUnit.RadioTest" />
       </list>
     </recent_temporary>
@@ -89,26 +97,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="453" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1585655176477">
+    <state x="453" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1585658796546">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="453" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1585655176477" />
-    <state width="1238" height="263" key="GridCell.Tab.0.bottom" timestamp="1585652790966">
+    <state x="453" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1585658796546" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1585658502848">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585652790966" />
-    <state width="1238" height="263" key="GridCell.Tab.0.center" timestamp="1585652790962">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585658502848" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1585658502844">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1585652790962" />
-    <state width="1238" height="263" key="GridCell.Tab.0.left" timestamp="1585652790961">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1585658502844" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1585658502842">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1585652790961" />
-    <state width="1238" height="263" key="GridCell.Tab.0.right" timestamp="1585652790964">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1585658502842" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1585658502846">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1585652790964" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1585658502846" />
     <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1585652790970">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

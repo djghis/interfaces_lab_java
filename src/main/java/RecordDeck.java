@@ -1,14 +1,22 @@
 public class RecordDeck extends Components implements IPlay {
 
-    private int speed;
+    private RecordSpeed recordSpeed;
 
-    public RecordDeck(String make, String model,int speed){
+    public RecordDeck(String make, String model, RecordSpeed recordSpeed ){
         super(make, model);
-        this.speed = speed;
+        this.recordSpeed = recordSpeed;
     }
 
-    public int play() {
-        return this.speed;
 
+
+
+
+
+    public RecordSpeed getSpeed() {
+        return this.recordSpeed;
+    }
+
+    public String play() {
+        return "RecordDeck playing at " + getSpeed() + " RPM.";
     }
 }

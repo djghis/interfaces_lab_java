@@ -8,7 +8,7 @@ public class Radio {
 
 
     public String tune(){
-        return "You are being tune to " + this.name + ". Thank you for listening.";
+        return "You are being tuned to " + this.name + ". Thank you for listening.";
     }
 
 }

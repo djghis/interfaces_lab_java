@@ -1,4 +1,4 @@
-public class CdPlayer extends Components implements IPlay {
+public class CdPlayer extends Components {
 
     private int cdNum;
 
